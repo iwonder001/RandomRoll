@@ -16,6 +16,8 @@ public class LabFive {
 		String cont;
 
 		do {
+		
+
 			System.out.println("Enter the Number of sides for the dice:");
 			int capture = input.nextInt();
 
@@ -30,9 +32,10 @@ public class LabFive {
 
 			System.out.println("Continue y/n: ");
 			cont = input.nextLine();
+			cont = input.nextLine();
 
 		} while (cont.equals("y"));
-		
+
 
 	}// psvm
 
