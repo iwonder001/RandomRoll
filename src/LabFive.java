@@ -3,15 +3,13 @@ import java.util.Scanner;
 public class LabFive {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		Scanner input = new Scanner(System.in);
 		String answer;
 
-		// System.out.println("Welcome to the Grand Circus Casino! Roll the
-		// dice? (y/n): ");
-		// answer=
-
-		Scanner input = new Scanner(System.in);
+		System.out.println("Welcome to the Grand Circus Casino! Roll the dice? (y/n):");
+		answer = input.nextLine();
 
 		String cont;
 
@@ -30,17 +28,18 @@ public class LabFive {
 			System.out.println(result);
 			System.out.println(result2);
 
-			System.out.println("Continue y/n: ");
+			System.out.println("Roll again? (y/n): ");
 			cont = input.nextLine();
 			cont = input.nextLine();
 
 		} while (cont.equals("y"));
-
+//closing the scanner
+		input.close();
 
 	}// psvm
 
 }// class
-
+//TODO Auto-generated method stub
 // download scanner method
 // make a new scanner
 // sysout - ask user to enter number of sides of a pair of dice.
