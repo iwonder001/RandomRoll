@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class LabFive {
 
 	public static void main(String[] args) {
-		
-		
+
 		Scanner input = new Scanner(System.in);
 		String answer;
 
@@ -14,7 +13,6 @@ public class LabFive {
 		String cont;
 
 		do {
-		
 
 			System.out.println("Enter the Number of sides for the dice:");
 			int capture = input.nextInt();
@@ -33,15 +31,16 @@ public class LabFive {
 			cont = input.nextLine();
 
 		} while (cont.equals("y"));
-//closing the scanner
+		// closing the scanner
 		input.close();
 
 	}// psvm
 
 }// class
-//TODO Auto-generated method stub
-// download scanner method
-// make a new scanner
-// sysout - ask user to enter number of sides of a pair of dice.
-// capture temporary user data and put into new data type + variable name (i.e.
-// String name)
+	// TODO Auto-generated method stub
+	// download scanner method
+	// make a new scanner
+	// sysout - ask user to enter number of sides of a pair of dice.
+	// capture temporary user data and put into new data type + variable name
+	// (i.e.
+	// String name)
