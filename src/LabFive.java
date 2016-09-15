@@ -17,10 +17,10 @@ public class LabFive {
 			System.out.println("Enter the Number of sides for the dice:");
 			int capture = input.nextInt();
 
-			double x = Math.random() * capture;
+			double x = (Math.random() * capture +1);
 			long result = (long) x;
 
-			double y = Math.random() * capture;
+			double y = (Math.random() * capture + 1);
 			long result2 = (long) y;
 
 			System.out.println(result);
